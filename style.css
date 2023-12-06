@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    font-family: "Beaufort for LOL Bold";
+}
+
+html {
+    margin: 0;
+}
+
+body {
+    background-color: rgba(254, 123, 229, 0.6);
+    margin: 0;
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: #313866;
+    position: absolute;
+    border-bottom: #974EC3 solid 10px;
+    text-transform: uppercase;
+    top: 0;
+    box-shadow: 0 20px 20px black;
+}
+
+#input {
+    position: relative;
+    top: 200px;
+}
+
+#board {
+    position: relative;
+    top: 250px;
+}
