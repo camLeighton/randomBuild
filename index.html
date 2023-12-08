@@ -20,8 +20,8 @@
         <form>
             <label for="champ">Champion name:</label>
             <input type="text" id="champ" name="champ" placeholder="Enter champion name">
-            <button type="submit">Submit</button>
-            <button type="submit">Random</button>
+            <button type="button" onclick="generateBuild('submit')" id="submitButton">Submit</button>
+            <button type="button" onclick="generateBuild('random')" id="randomButton">Random</button>
         </form>
     </div>
 
@@ -30,7 +30,7 @@
         <h2>Champ Name Placeholder</h2>
         <img id="champ-splash">
 
-        <div id="items">
+        <div id="result">
             <img id="item1">
             <img id="item2">
             <img id="item3">
@@ -41,5 +41,6 @@
     </div>
 
 
+<script src="script.js"></script>
 </body>
 </html>

@@ -24,6 +24,7 @@ body {
     box-shadow: 0 20px 35px black;
     color: #dcbb65;
     text-shadow: 0 5px 5px black;
+    overflow: hidden;
 }
 
 #logo {
@@ -50,4 +51,17 @@ body {
 #board {
     position: relative;
     top: 200px;
+}
+
+img:hover::after {
+    content: attr(alt);
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
 }
