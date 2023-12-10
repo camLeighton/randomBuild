@@ -1,10 +1,22 @@
 // Create a list/array containing all of the possible items to draw from
 const items = [
     { name: 'youmuu', num: 1, image: 'resources/youmuu.jpg' },
-    { name: 'item2', num: 2, image: 'resources/item2.jpg' },
-    { name: 'item3', num: 3, image: 'resources/item3.jpg' },
-    { name: 'item4', num: 4, image: 'resources/item4.jpg' },
-    { name: 'item5', num: 5, image: 'resources/item5.jpg' },
+    { name: 'trinity-force', num: 2, image: 'resources/tf.jpg' },
+    { name: 'stridebreaker', num: 3, image: 'resources/stridebreaker.jpg' },
+    { name: 'shurelyas battlesong', num: 4, image: 'resources/shurelyas.jpg' },
+    { name: 'roa', num: 5, image: 'resources/roa.jpg' },
+    { name: 'riftmaker', num: 5, image: 'resources/riftmaker.jpg' },
+    { name: 'radiant virtue', num: 5, image: 'resources/radiant.jpg' },
+    { name: 'night harvester', num: 5, image: 'resources/harvester.jpg' },
+    { name: 'navori quickblades', num: 5, image: 'resources/navori.jpg' },
+    { name: 'moonstone renewer', num: 5, image: 'resources/moonstone.jpg' },
+    { name: 'ludens tempest', num: 5, image: 'resources/ludens.jpg' },
+    { name: 'locket of the iron solari', num: 5, image: 'resources/locket.jpg' },
+    { name: 'liandrys anguish', num: 5, image: 'resources/liandrys.jpg' },
+    { name: 'roa', num: 5, image: 'resources/roa.jpg' },
+    { name: 'roa', num: 5, image: 'resources/roa.jpg' },
+    { name: 'roa', num: 5, image: 'resources/roa.jpg' },
+    { name: 'roa', num: 5, image: 'resources/roa.jpg' },
 ];
 
 // Create a function that generates 5x random numbers that will pull 5x objects from the array

@@ -27,6 +27,13 @@ body {
     overflow: hidden;
 }
 
+#header h1 {
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: 25px;
+}
+
 #logo {
     width: 150px;
     position: absolute;
@@ -45,7 +52,7 @@ body {
     border-radius: 10px 10px 10px 10px;
     color: #dcbb65;
     text-shadow: 0 5px 5px black;
-    border: #974EC3 solid 5px;
+    box-shadow: #974EC3 0 0 3px 3px;
 }
 
 #board {
@@ -53,15 +60,8 @@ body {
     top: 200px;
 }
 
-img:hover::after {
-    content: attr(alt);
-    position: absolute;
-    background: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    padding: 5px;
+#result img {
+    border: 5px solid #313866;
     border-radius: 5px;
-    bottom: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    white-space: nowrap;
+    box-shadow: #974EC3 0 0 3px 3px;
 }
